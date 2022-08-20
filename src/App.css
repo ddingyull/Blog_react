@@ -1,5 +1,61 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+}
+
+div{
+  box-sizing: border-box;
+}
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.btn{
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  transform: translateX(-50%);
+  background-color: #777;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-size: 10px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.btn.array{
+transform: translateX(30%);
+}
+
+.details{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #c8c8c8;
+  text-align: left;
+  border-radius: 5px;
+  cursor: pointer; 
+  position: relative;
+}
+
+.btnP{
+  background-color: #777;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.black-nav{
+  display: flex;
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  padding-left: 15px;
 }
 
 .App-logo {
