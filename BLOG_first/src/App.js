@@ -2,7 +2,6 @@
 // import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
